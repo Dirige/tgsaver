@@ -14,6 +14,13 @@
 
 ---
 
+<p align="center">
+  <a href="https://github.com/Dirige/tgsaver">📦 GitHub</a> •
+  <a href="https://hub.docker.com/r/dustinky/tgsaver">🐳 Docker Hub</a>
+</p>
+
+---
+
 ## ✨ 功能亮点
 
 - 🧠 **智能解析** — 自动识别文件名中的标题、季数、集数、年份、分辨率
@@ -31,7 +38,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/dustinky/tgsaver.git
+git clone https://github.com/Dirige/tgsaver.git
 cd tgsaver
 
 # 2. 配置环境变量
@@ -253,6 +260,13 @@ A: 目前分类固定为：电影、电视剧、动漫、Cosplay、其他。
 
 ---
 
+## 🔗 相关链接
+
+- 📦 **GitHub**: https://github.com/Dirige/tgsaver
+- 🐳 **Docker Hub**: https://hub.docker.com/r/dustinky/tgsaver
+
+---
+
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
@@ -272,5 +286,5 @@ A: 目前分类固定为：电影、电视剧、动漫、Cosplay、其他。
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/dustinky">Dustinky</a>
+  Made with ❤️ by <a href="https://github.com/Dirige">Dustinky</a>
 </p>
