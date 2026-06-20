@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/Dirige/tgsaver">📦 GitHub</a> •
-  <a href="https://hub.docker.com/r/dustinky/tgsaver">🐳 Docker Hub</a>
+  <a href="https://github.com/Dirige/tgsaver/pkgs/container/tgsaver">🐳 GHCR 镜像</a>
 </p>
 
 ---
@@ -184,7 +184,7 @@ TGSaver 能从文件名中提取：
 ```yaml
 services:
   tgsaver:
-    image: dustinky/tgsaver:latest
+    image: ghcr.io/dirige/tgsaver:latest
     container_name: tgsaver
     restart: unless-stopped
     env_file: .env
@@ -263,7 +263,7 @@ A: 目前分类固定为：电影、电视剧、动漫、Cosplay、其他。
 ## 🔗 相关链接
 
 - 📦 **GitHub**: https://github.com/Dirige/tgsaver
-- 🐳 **Docker Hub**: https://hub.docker.com/r/dustinky/tgsaver
+- 🐳 **GHCR 镜像**: https://github.com/Dirige/tgsaver/pkgs/container/tgsaver
 
 ---
 

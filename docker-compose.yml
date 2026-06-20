@@ -1,6 +1,6 @@
 services:
   tg-saver-bot:
-    build: .
+    image: ghcr.io/dirige/tgsaver:latest
     container_name: tg-saver-bot
     restart: unless-stopped
     environment:
