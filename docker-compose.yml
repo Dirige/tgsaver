@@ -1,0 +1,13 @@
+services:
+  tg-saver-bot:
+    build: .
+    container_name: tg-saver-bot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=8999335847:AAEtv9Dg8t1QqVAKXIGalkJo9I9RZJ_Y6no
+      - ALLOWED_USERS=6176763800
+      - DOWNLOAD_DIR=/downloads
+      - PROXY_URL=socks5://192.168.2.10:6891
+    volumes:
+      - /vol1/1000/SSD/影视:/downloads
+    network_mode: host
